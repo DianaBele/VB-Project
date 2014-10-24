@@ -1,0 +1,39 @@
+<acceptance-test-run title="Entering credentials and submit" name="entering_credentials_and_submit" steps="4" successful="0" failures="0" errors="1" skipped="3" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="26654" timestamp="2014-10-19T20:24:39.961+03:00">
+  <user-story id="com.vbsample.requirements.Application.LoginAndCreateApp.LoginPage" name="Login page" path="com.vbsample.requirements.Application.LoginAndCreateApp">
+    <feature id="com.vbsample.requirements.Application.LoginAndCreateApp" name="Login and create app"/>
+  </user-story>
+  <issues>
+    <issue>Testing the Login</issue>
+  </issues>
+  <tags>
+    <tag name="Login and create app" type="feature"/>
+    <tag name="Login page" type="story"/>
+  </tags>
+  <test-step result="ERROR" duration="26517">
+    <description>User enters email: &lt;span class=&apos;step-parameter&apos;&gt;dbele+live@adobetest.com&lt;/span&gt;</description>
+    <error>Window not found. The browser window may have been closed.
+Command duration or timeout: 29 milliseconds
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.7.0_60&apos;
+Session ID: 26be017e-1987-4842-b58c-d23fdec7d3b6
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]</error>
+    <exception>org.openqa.selenium.NoSuchWindowException:Window not found. The browser window may have been closed.
+Command duration or timeout: 29 milliseconds
+Build info: version: &apos;2.42.2&apos;, revision: &apos;6a6995d31c7c56c340d6f45a76976d43506cd6cc&apos;, time: &apos;2014-06-03 10:52:47&apos;
+System info: host: &apos;N/A&apos;, ip: &apos;N/A&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.7.0_60&apos;
+Session ID: 26be017e-1987-4842-b58c-d23fdec7d3b6
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+[com.sun.proxy.$Proxy19.type(Unknown Source), com.vbsample.pages.LoginPage.enter_email(LoginPage.java:50), com.vbsample.steps.EndUserStepsLogin.user_enters_email(EndUserStepsLogin.java:32), com.vbsample.steps.LoginPageTest.entering_credentials_and_submit(LoginPageTest.java:42)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="30">
+    <description>User enters password: &lt;span class=&apos;step-parameter&apos;&gt;13Adobe14&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="24">
+    <description>User clicks signin</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="5">
+    <description>Verify login successful: &lt;span class=&apos;step-parameter&apos;&gt;DPS App Builder&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,12 @@
+<acceptance-test-run title="Selecting add button and android latest" name="selecting_add_button_and_android_latest" steps="0" successful="0" failures="0" skipped="0" ignored="0" pending="0" annotated-result="PENDING" result="PENDING" duration="2" timestamp="2014-10-22T20:36:15.136+03:00">
+  <user-story id="com.vbsample.requirements.Application.LoginAndCreateApp.LoginAndCreateAppFlow" name="Login and create app flow" path="com.vbsample.requirements.Application.LoginAndCreateApp">
+    <feature id="com.vbsample.requirements.Application.LoginAndCreateApp" name="Login and create app"/>
+  </user-story>
+  <issues>
+    <issue>Testing the App Creation Wizard Android V32</issue>
+  </issues>
+  <tags>
+    <tag name="Login and create app" type="feature"/>
+    <tag name="Login and create app flow" type="story"/>
+  </tags>
+</acceptance-test-run>

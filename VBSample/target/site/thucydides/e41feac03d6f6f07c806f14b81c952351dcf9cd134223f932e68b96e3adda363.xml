@@ -1,0 +1,50 @@
+<acceptance-test-run title="Entering credentials and submit" name="entering_credentials_and_submit" steps="5" successful="4" failures="1" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="41846" timestamp="2014-10-22T20:35:33.167+03:00">
+  <user-story id="com.vbsample.requirements.Application.LoginAndCreateApp.LoginAndCreateAppFlow" name="Login and create app flow" path="com.vbsample.requirements.Application.LoginAndCreateApp">
+    <feature id="com.vbsample.requirements.Application.LoginAndCreateApp" name="Login and create app"/>
+  </user-story>
+  <issues>
+    <issue>Testing the Login</issue>
+  </issues>
+  <tags>
+    <tag name="Login and create app" type="feature"/>
+    <tag name="Login and create app flow" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="25393">
+    <screenshots>
+      <screenshot image="2ccb86ec200a5e84f0a0267e1abce6cc_NONE.png"/>
+    </screenshots>
+    <description>User opens the login page</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1839">
+    <screenshots>
+      <screenshot image="08ec54ea0724d8a14d86f4fd7c6b939e_NONE.png"/>
+    </screenshots>
+    <description>User enters email: &lt;span class=&apos;step-parameter&apos;&gt;dbele+live@adobetest.com&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1722">
+    <screenshots>
+      <screenshot image="ffcf1c0b08f655f0bb2e1bb686240d83_NONE.png"/>
+    </screenshots>
+    <description>User enters password: &lt;span class=&apos;step-parameter&apos;&gt;13Adobe14&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1465">
+    <screenshots>
+      <screenshot image="eb46f3670ddedf588b5edd625df461fd_NONE.png"/>
+    </screenshots>
+    <description>User clicks signin</description>
+  </test-step>
+  <test-step result="FAILURE" duration="1351">
+    <screenshots>
+      <screenshot image="9becc6c7371b45e0f8588ef2109dfb52_NONE.png"/>
+      <screenshot image="994da77aafb6f5090bc00e5ec76f71b5_NONE.png"/>
+    </screenshots>
+    <description>Verify login successful: &lt;span class=&apos;step-parameter&apos;&gt;DPS App Builder Sign In&lt;/span&gt;</description>
+    <error>
+Expected: is &quot;DPS App Builder Sign In&quot;
+     but: was &quot;DPS App Builder&quot;</error>
+    <exception>java.lang.AssertionError:
+Expected: is &quot;DPS App Builder Sign In&quot;
+     but: was &quot;DPS App Builder&quot;
+[com.vbsample.steps.EndUserStepsLogin.verify_login_successful(EndUserStepsLogin.java:45), com.vbsample.LoginAndCreateAppTest.entering_credentials_and_submit(LoginAndCreateAppTest.java:47)]</exception>
+  </test-step>
+</acceptance-test-run>
